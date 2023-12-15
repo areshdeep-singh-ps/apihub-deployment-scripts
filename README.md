@@ -27,7 +27,7 @@ Authenticate with the following commands
 
 Run Script with
 
-node multipleProxyDiscovery.js
+- node multipleProxyDiscovery.js
 
 
 
