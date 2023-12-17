@@ -5,7 +5,8 @@ const axios = require("axios");
 const fs = require("fs/promises");
 const YAML = require("yaml");
 
-const serviceAccount = "testsa@burner-micolatu1.iam.gserviceaccount.com";
+// const serviceAccount = "testsa@burner-micolatu1.iam.gserviceaccount.com";
+const serviceAccount = "677397881830-compute@developer.gserviceaccount.com";
 const client = new IAMCredentialsClient();
 
 //Variables
