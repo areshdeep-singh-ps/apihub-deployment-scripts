@@ -64,7 +64,7 @@ async function getProxyFile(proxyName, proxyRevision) {
 async function convertToAPIDefinition(proxyName) {
   try {
     const {} = await exec(
-      `sudo apigee2openapi -d output  -l ./proxyBundles/${proxyName}.zip -n ${proxyName} -e ${apigeeHostname}`
+      `apigee2openapi -d output  -l ./proxyBundles/${proxyName}.zip -n ${proxyName} -e ${apigeeHostname}`
     );
     console.log(`${proxyName} Converted to OpenAPI Definition`);
   } catch (e) {
